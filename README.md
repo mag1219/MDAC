@@ -1,10 +1,21 @@
 # MDAC
-Marshall Data Analytics Competition (Won 1st Place)
+Marshall Data Analytics Competition (Won 1st Place)               Feb. - Mar. 2018
+
 •	Set the agenda and led team in exploring statistical models to forecast revenue of USC Hospitality
+
 •	Extracted and cleaned data from multiple sources, transformed raw data into features based on previous EDA
-•	Performed time series forecasting using Ridge Regression model and obtained 0.24 MSE in Python
+
+•	Designed Ridge Regression and Random Forest models to predict revenue
+
 •	Delivered results and recommendations to senior manager and judges in the presentation
-•	Continued providing consulting and forecasting work for USC Hospitality
+
+Data Manipulation.ipynb : Data Manipulation work was done by me and my partnet Zikun.
+Modelling (Preprocessing,Ridge Regression,Random Forest).ipython : Modelling work was done by me.
+
+Conclusion: 
+Use Random Forest model with parameter:{'max_depth': 24, 'max_features': 'sqrt', 'n_estimators': 200}
+Random Forest: MSE on training dataset is 0.3181, on test dataset is 0.6222.
+Ridge Regression: MSE on training set  is 0.6401, on test dataset is 1.2502.
 
 In this competition, the problem is predicting revenue and customer counts in 2018, month by month, venue by venue given history data of the past two years. This is a time series forecasting problem. But since statistical model predicts future values based on its own inertia. We decided to use machine learning algorithms to solve this problem.
 
