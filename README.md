@@ -9,14 +9,14 @@ Marshall Data Analytics Competition (Won 1st Place)               Feb. - Mar. 20
 
 •	Delivered results and recommendations to senior manager and judges in the presentation
 
-
-
+_
+_
 Data Manipulation.ipynb : My partner Zikun and I did data manipulation work.
 
 Modelling (Preprocessing,Ridge Regression,Random Forest).ipython : I did modelling work.
 
-
-
+_
+_
 Conclusion:
 
 Use Random Forest model with parameter:{'max_depth': 24, 'max_features': 'sqrt', 'n_estimators': 200}
@@ -25,8 +25,8 @@ Random Forest: MSE on training dataset is 0.3181, on test dataset is 0.6222.
 
 Ridge Regression: MSE on training set  is 0.6401, on test dataset is 1.2502.
 
-
-
+_
+_
 In this competition, the problem is predicting revenue and customer counts in 2018, month by month, venue by venue given history data of the past two years. This is a time series forecasting problem. But since statistical model predicts future values based on its own inertia. We decided to use machine learning algorithms to solve this problem.
 
 The first step is transfering time series data into supervised learning data by adding external variables that may influence the target. In this case, we break out seansonality using three features: month, semester and # days opened in that month. We also add four features: profit center, region, dollar per person and operation hour to explain the characteristics of each profit center. In this way, we get the supervised learning data.
