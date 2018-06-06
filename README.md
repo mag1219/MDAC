@@ -9,12 +9,16 @@ Marshall Data Analytics Competition (Won 1st Place)               Feb. - Mar. 20
 
 •	Delivered results and recommendations to senior manager and judges in the presentation
 
-Data Manipulation.ipynb : Data Manipulation work was done by me and my partnet Zikun.
-Modelling (Preprocessing,Ridge Regression,Random Forest).ipython : Modelling work was done by me.
+Data Manipulation.ipynb : My partner Zikun and I did data manipulation work.
 
-Conclusion: 
+Modelling (Preprocessing,Ridge Regression,Random Forest).ipython : I did modelling work.
+
+Conclusion:
+
 Use Random Forest model with parameter:{'max_depth': 24, 'max_features': 'sqrt', 'n_estimators': 200}
+
 Random Forest: MSE on training dataset is 0.3181, on test dataset is 0.6222.
+
 Ridge Regression: MSE on training set  is 0.6401, on test dataset is 1.2502.
 
 In this competition, the problem is predicting revenue and customer counts in 2018, month by month, venue by venue given history data of the past two years. This is a time series forecasting problem. But since statistical model predicts future values based on its own inertia. We decided to use machine learning algorithms to solve this problem.
@@ -25,8 +29,7 @@ Before we build the model, we need to preprocess the data. First, we transfer da
  
 I also use One-hot Encoding to convert categorical variables into dummy variables and compute correlation matrix, drop features which are highly correlated with each other.
 
-After we've done all of the data cleansing and preprocessing work, we can choose a machine learning model to use. Here, we use ridge regression. Ridge regression is a simple machine learning model. The difference between linear regression and ridge regression is the objective function of ridge regression has a l2 regularization term to prevent overfitting.
+After we've done all of the data cleansing and preprocessing work, we can choose a machine learning model to use. Here, we use ridge regression. Ridge regression is a simple machine learning model. The difference between linear regression and ridge regression is the objective function of ridge regression has a l2 regularization term to prevent overfitting. (After competition, I also tried random forest which achieved better result.)
 
 In general, machine learning is a method of modeling as valid as statistical model, and it always achieve better accuray in prediction.
 
-In this competition, I did data cleaning, feature engineering, model choosing and building work. Final_model_Manqi-Ver4.ipynb is the fianl version that I used in the competition.
