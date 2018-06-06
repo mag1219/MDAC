@@ -9,7 +9,7 @@ Marshall Data Analytics Competition (Won 1st Place)               Feb. - Mar. 20
 
 •	Delivered results and recommendations to senior manager and judges in the presentation
 
-Data Manipulation.ipynb : My partner Zikun and I did data manipulation work.
+Data Manipulation.ipynb : I did part of the data manipulation work which is shown in Data Manipulation.ipynb.
 
 Modelling (Preprocessing,Ridge Regression,Random Forest).ipython : I did modelling work.
 
